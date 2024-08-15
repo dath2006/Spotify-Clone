@@ -1,0 +1,280 @@
+html,body{
+    height: 100vh; width: 100vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin: 0;
+    overflow: hidden;
+}
+
+p,h3,h2,h6,h5,h4{
+   cursor: default;
+}
+
+.main{
+    height: 100vh;width: 100%;
+    background-color: black;
+    display: flex;
+    
+}   
+.left{
+    width: 20%; height: 100%;
+}
+.left1{
+    width: 100%; height: 13%;
+    background-color: rgb(28, 28, 28);
+    border: 0 solid;
+    border-radius: 1em;
+    margin: 1.5%; 
+    margin-top: 3.7%;
+    color: rgb(207, 201, 201);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#home i{
+    color: white;
+}
+
+#home,#search{
+    padding-left:5%;
+    display: flex;
+}
+
+.left1 i{
+    font-size: larger;
+    align-self: center;
+    padding-right: 5%;
+}
+
+.left2{
+    height:84%; width: 100%;
+    background-color: rgb(28, 28, 28);
+    border: 0 solid;
+    border-radius: 1em;
+    margin: 1.5%;
+}
+
+.navi{
+    display:flex ;
+    justify-content: space-between;
+    color: rgb(207, 201, 201);
+}
+
+.navileft{
+    display: flex;
+    padding-left: 5%;
+}
+
+.navileft p{
+   width: 100px;
+   padding-left: 11%;
+}
+
+.naviright{
+    display: flex;
+    width: 36%;
+    justify-content: space-around;
+}
+
+.naviright i{
+    font-size: x-large;
+    
+}
+.navi i{
+    align-self: center;
+}
+
+.content1{
+    background-color: rgb(42, 42, 42);
+    border: 0 solid;
+    border-radius: 1em;
+    margin: 0.5rem;
+    padding-left: 5%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content:space-around ;
+}
+
+.content1 p,h4{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.content1 p{
+    font-size: small;
+    margin-bottom: 23px;
+}
+
+.content1 button{
+    width: fit-content; height: 20%;
+    border-radius: 50px;
+    background-color: white;
+    font-weight:800;
+    border: 0cap solid white;
+    margin-bottom: 1.4em;
+    padding-bottom: 0.5em;
+}
+
+.right{
+    height:98%; width: 80%;
+    background-color: rgb(28, 28, 28);
+    border: 0 solid;
+    border-radius: 1rem;
+    margin: 0.9em;
+    overflow: auto;
+}
+
+.navigation{
+    
+    background-color:rgb(28, 28, 28);
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    position: sticky;
+    display: flex;
+    top: 0;
+    
+}
+
+#navileft{
+    padding-left: 2em;
+}
+
+#naviright{
+    padding-right: 2rem;
+}
+
+
+
+#naviright button{
+    width: fit-content; height: 2em;
+    border-radius: 50px;
+    background-color: white;
+    font-weight:800;
+    border: 0cap solid white;
+}
+
+#Install{
+    color: black;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+    
+}
+
+.ri-user-3-fill{
+   font-size:x-large;
+   
+}
+
+.mainright{
+    padding-left: 2em;
+    color: white;
+}
+
+.container1{
+    display: flex;
+}
+
+.cardimg{
+    border-radius: 10px;
+    height:200px; width:200px;
+    margin-top: 1em;
+}
+
+.card p{
+    font-weight: 500;
+    color: rgb(180, 175, 175);
+    margin-top: -10px;
+    
+}
+.card{
+    height: 350px; width: 230px;
+    background-color: rgb(42, 42, 42);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+ 
+.mainright{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container2{
+    margin: 1em 2em;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+  
+   grid-gap: 1em;
+}
+
+.container3{
+    margin: 1em 2em;
+    display: flex;
+    gap: 1em;
+    margin-bottom: 100px;   
+}
+
+.bar{
+    height: 300px; width: 70%;
+    position: relative;
+     margin-top: 150px;
+     left: 8em;
+    border-top: 2px solid rgb(42, 42, 42);
+}
+
+.footer{
+    background-color: black;
+    color :white;
+    position: sticky;
+    bottom: 0;
+    height:6%;
+}
+
+#play{
+    padding-top: 3px;
+    height: 1.8em;
+}
+
+
+.player i img{
+   height: 15px;
+}
+
+
+
+.player{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.6em;
+  
+}
+
+
+.scroller{
+   display: flex;
+   justify-content: center;
+}
+
+.slider{
+    height: 3px;
+    appearance: none;
+    outline: none;
+    width: 20%;
+    align-self: center;
+}
+

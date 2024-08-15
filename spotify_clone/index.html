@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="logo.png" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+       <div class="left">
+          <div class="left1">
+             <div id="home">
+              <i class="ri-home-4-fill"></i><a href="#"> <p>Home</p></a> 
+             </div>
+
+             <div id="search">
+                <i class="ri-search-line"></i><a href="#"><p>Search</p></a>
+             </div>
+         </div>
+         <div class="left2">
+             <div class="navi">
+                <div class="navileft">
+                  <i><img src="library_icon.png" style="height: 20px;"></i>
+                  <p>Your Library</p>
+                </div>
+                <div class="naviright">
+                    <i class="ri-add-line"></i>
+                    <i class="ri-arrow-right-line"></i>
+                </div>
+            </div> 
+             <div class="content1">
+               <h4>Create your first playlist</h4>
+               <p>It's easy,we'll help you</p>
+               <button>Create playlist</button>
+             </div>
+             <div class="content1">
+                <h4>Let's find some podcasts to follow</h4>
+                <p>We'll keep you updated on new episodes</p>
+                <a href="#"><button>Browse podcasts</button></a>
+              </div>
+          </div>
+      </div> 
+        <div class="right">
+              <div class="navigation">
+                 <div id="navileft">
+                    <i><img src="backward_icon.png"></i>
+                    <i><img src="forward_icon.png"></i>
+                 </div>
+                 <div id="naviright">
+                    <button>Explore premium</button>
+                    <button id="Install"><i class="ri-arrow-down-circle-fill"></i>Install App</button>
+                    <a href="#"><i class="ri-user-3-fill"></i></a> 
+                </div>
+              </div>
+             <div class="mainright">
+                 <h2>Recently Played</h2>
+                 <div class="container1">
+                    <div class="card" style=" margin: 1em 2em;">
+                        <img src="card1img.jpeg"  class="cardimg">
+                        <H3>Top 50 - Global</H3>
+                         <p>Your daily updates of the <br>most played tracks</p>
+                    </div>
+                 </div>
+              <h2>Trending now near you</h2>
+                 <div class="container2">
+                    <div class="card">
+                        <img src="card2img.jpeg"  class="cardimg">
+                        <H3>Indie India</H3>
+                         <p>Best of the Indian Indie</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="card3img.jpeg"  class="cardimg">
+                        <H3>Indie India</H3>
+                         <p>Best of the Indian Indie</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="card4img.jpeg"  class="cardimg">
+                        <H3>Indie Indial</H3>
+                         <p>Best of the Indian Indie</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="card3img.jpeg"  class="cardimg">
+                        <H3>Indie India</H3>
+                         <p>Best of the Indian Indie</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="card4img.jpeg"  class="cardimg">
+                        <H3>Indie India</H3>
+                         <p>Best of the Indian Indie</p>
+                    </div>
+                 </div>
+
+                <h3>Featured Charts</h3> 
+                <div class="container3">
+                    <div class="card">
+                        <img src="card5img.jpeg"  class="cardimg">
+                        <H3>Indie India</H3>
+                         <p>Best of the Indian Indie<br> Scene</p>
+                    </div>
+                    <div class="card">
+                        <img src="card6img.jpeg"  class="cardimg">
+                        <H3>Indie India</H3>
+                         <p>Best of the Indian Indie <br>Scene</p>
+                    </div>
+                </div>
+
+                <div class="bar">
+
+                </div>
+             </div>
+        </div>
+
+    </div>
+    <div class="footer">
+        <div class="player">
+          <i><img id="sub" src="player_icon1.png"/></i>
+          <i><img id="sub" src="player_icon2.png" /></i>
+          <i><img  id="play" title="Play" src="player_icon3.png" /></i>
+          <i><img  id="sub" src="player_icon4.png"/></i>
+          <i><img id="sub" src="player_icon5.png"/></i>
+        </div>
+        <div class="scroller">
+          0.00
+          <input type="range" min="1" max="100" value="50" class="slider">
+          03.33
+        </div>
+    </div>
+</body>
+</html>
